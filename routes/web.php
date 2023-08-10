@@ -9,7 +9,7 @@ Route::get('/home', [UsuarioController::class, 'homeView']);
 
 Route::get('/cadastro', [UsuarioController::class, 'cadastroView']);
 
-Route::post('/fazer-login', [UsuarioController::class, 'fazerLogin']);
+Route::post('/login', [UsuarioController::class, 'login']);
 
 Route::get('/meuslivros', [UsuarioController::class, 'meuslivrosView']);
 
@@ -19,6 +19,12 @@ Route::get('/minhaconta', [UsuarioController::class, 'minhacontaView']);
 
 Route::get('/resultadoslivros', [UsuarioController::class, 'resultadoslivrosView']);
 
+
+Route::get('/cadastrodelivro', [UsuarioController::class, 'cadastrodelivroView']);
+
+Route::get('/exclusaodelivro', [UsuarioController::class, 'exclusaodelivroView']);
+
+Route::get('/inflivro', [UsuarioController::class, 'inflivroView']);
 
 Route::get('/inflivro', [UsuarioController::class, 'inflivroView']);
 
