@@ -24,9 +24,6 @@ Route::get('/cadastrodelivro', [UsuarioController::class, 'cadastrodelivroView']
 
 Route::get('/exclusaodelivro', [UsuarioController::class, 'exclusaodelivroView']);
 
-Route::get('/inflivro', [UsuarioController::class, 'inflivroView']);
-
-Route::get('/inflivro', [UsuarioController::class, 'inflivroView']);
 
 
 
